@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ManualRepo\\IOptionDemo\\IOptionDemo\\IOptionDemo.csproj": {}
+    "D:\\Projects\\IOptionDemo\\IOptionDemo.csproj": {}
   },
   "projects": {
-    "D:\\ManualRepo\\IOptionDemo\\IOptionDemo\\IOptionDemo.csproj": {
+    "D:\\Projects\\IOptionDemo\\IOptionDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ManualRepo\\IOptionDemo\\IOptionDemo\\IOptionDemo.csproj",
+        "projectUniqueName": "D:\\Projects\\IOptionDemo\\IOptionDemo.csproj",
         "projectName": "IOptionDemo",
-        "projectPath": "D:\\ManualRepo\\IOptionDemo\\IOptionDemo\\IOptionDemo.csproj",
+        "projectPath": "D:\\Projects\\IOptionDemo\\IOptionDemo.csproj",
         "packagesPath": "C:\\Users\\kamalsharma01\\.nuget\\packages\\",
-        "outputPath": "D:\\ManualRepo\\IOptionDemo\\IOptionDemo\\obj\\",
+        "outputPath": "D:\\Projects\\IOptionDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamalsharma01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Projects\\AIS\\ais-authoring\\localNuget\\CreateUpdateScriptNuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,6 +68,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.1, 3.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -75,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
