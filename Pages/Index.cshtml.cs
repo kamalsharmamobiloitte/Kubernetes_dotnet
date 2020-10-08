@@ -19,7 +19,10 @@ namespace Kubernetes_Dotnet.Pages
 
         public void OnGet()
         {
-
+             double x = 0.0001;
+            for (double i = 0; i <= 1000000; i++) {
+                x += Math.Sqrt(x);
+            }
         }
     }
 }
